@@ -10,6 +10,10 @@ const todoSchema = new Schema({
   completed:{
     type:Boolean,
     default:false
+  },
+  completedAt:{
+    type:String,
+    default:null
   }
 })
 
